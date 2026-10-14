@@ -1,0 +1,22 @@
+/**
+ * Result of {@link ActionItem.weeklyReview}.
+ */
+type WeeklyReview {
+  /** Items due in the week with status "Done". */
+  completed: [ActionItem]
+
+  /** Items due in the week that are not yet "Done". */
+  remaining: [ActionItem]
+
+  /** Number of completed items. */
+  completedCount: int
+
+  /** Number of remaining items. */
+  remainingCount: int
+
+  /** Total items due in the week. */
+  totalCount: int
+
+  /** One-line human-readable summary. */
+  summary: string
+}

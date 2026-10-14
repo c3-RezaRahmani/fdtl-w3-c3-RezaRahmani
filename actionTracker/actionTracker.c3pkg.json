@@ -1,0 +1,7 @@
+{
+  "author": "{{author}}",
+  "name": "actionTracker",
+  "description": "{{description}}",
+  "dependencies": {},
+  "version": "1.0.0"
+}

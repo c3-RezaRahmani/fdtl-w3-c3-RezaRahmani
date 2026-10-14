@@ -1,0 +1,25 @@
+/**
+ * A single weekly team action item. Status is overwritten in place as work progresses.
+ */
+entity type ActionItem {
+  /** Short description of what needs to be done. */
+  title: !string
+
+  /** Plain-text name of the person responsible. */
+  owner: !string
+
+  /** When the item is due. */
+  dueDate: !datetime
+
+  /** One of "High", "Medium", "Low". */
+  priority: !string
+
+  /** One of "Open", "In Progress", "Done". */
+  status: !string
+
+  /**
+   * Weekly review of items due in the 7 days starting at weekStart: completed (status "Done")
+   * versus remaining, with counts and a one-line summary.
+   */
+  static weeklyReview: function(weekStart: datetime): WeeklyReview js
+}
