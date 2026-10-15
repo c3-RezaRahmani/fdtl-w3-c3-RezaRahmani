@@ -1,7 +1,7 @@
 {
-  "author": "{{author}}",
+  "author": "Reza Rahmani",
   "name": "actionTracker",
-  "description": "{{description}}",
+  "description": "Tracker of weekly team action items with a weekly review of completed versus remaining.",
   "dependencies": {},
   "version": "1.0.0"
 }
