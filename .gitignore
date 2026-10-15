@@ -5,3 +5,10 @@ dist/
 *.log
 .DS_Store
 .npmrc
+
+**/jsconfig.json
+.vs-cache
+**/.fingerprints.txt
+.vscode
+**/gen/cache/**
+.c3nbrc.js

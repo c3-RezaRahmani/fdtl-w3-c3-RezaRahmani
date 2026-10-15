@@ -2,7 +2,7 @@ function weeklyReview(weekStart) {
   var start = typeof weekStart === 'string' ? DateTime.fromString(weekStart) : weekStart;
   var end = start.plusDays(7);
 
-  var items = ActionItem.fetch({
+  var items = this.fetch({
     filter: Filter.ge('dueDate', start).and(Filter.lt('dueDate', end)),
     include: 'this',
     limit: -1,

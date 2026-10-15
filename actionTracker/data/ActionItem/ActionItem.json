@@ -1,9 +1,0 @@
-[
-  {"id": "ai_001", "title": "Draft Q4 roadmap outline", "owner": "Reza", "dueDate": "2026-10-12T17:00:00Z", "priority": "High", "status": "Done"},
-  {"id": "ai_002", "title": "Review onboarding checklist", "owner": "Jack", "dueDate": "2026-10-13T17:00:00Z", "priority": "Medium", "status": "Done"},
-  {"id": "ai_003", "title": "Send customer follow-up notes", "owner": "Maria", "dueDate": "2026-10-14T17:00:00Z", "priority": "High", "status": "In Progress"},
-  {"id": "ai_004", "title": "Update team wiki", "owner": "Reza", "dueDate": "2026-10-15T17:00:00Z", "priority": "Low", "status": "Open"},
-  {"id": "ai_005", "title": "Prepare Friday demo", "owner": "Jack", "dueDate": "2026-10-16T17:00:00Z", "priority": "High", "status": "Open"},
-  {"id": "ai_006", "title": "Close out last week's bugs", "owner": "Maria", "dueDate": "2026-10-09T17:00:00Z", "priority": "Medium", "status": "Done"},
-  {"id": "ai_007", "title": "Plan next sprint", "owner": "Reza", "dueDate": "2026-10-19T17:00:00Z", "priority": "Medium", "status": "Open"}
-]
